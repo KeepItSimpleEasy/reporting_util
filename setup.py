@@ -9,6 +9,12 @@ setup(
     version='1.0',
     packages=find_packages(),
     package_dir={'': 'bin/automated_report_tool'},
+    install_requires=[
+          'cx_oracle~=8.1.0',
+	  'pandas~=1.0.1',
+	  'openpyxl~=3.0.5',
+	  'setuptools~=45.2.0'
+    ],
     url='https://github.com/nikhleshagrawal/reporting_util',
     license='',
     author='nikhleshagrawal',
