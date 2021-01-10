@@ -16,6 +16,9 @@ This is utility tool which reads a config file and does the following for you:
 * Send an email with the attachment to configured reciepients
 * archive the xlsx and zip file
 
+
+Everything is configurable: database config, email config, Sql_query, report file name and zip file name, path to create the file and path to archive the file and zip. Please check the sample.ini for more details. 
+
 The utility uses following python libraries:
 
 * configparser
