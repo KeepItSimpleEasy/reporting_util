@@ -10,8 +10,9 @@ Usage:
 
 pip install -e .
 
-/usr/local/bin/python3.7 automated_report_tool.py <path of config file> >> /tmp/1.log
-e.g. /usr/local/bin/python3.7 automated_report_tool.py config/sample.ini
+/usr/local/bin/python3.7 automated_report_tool.py "path of config file" >> /tmp/1.log
+
+e.g. /usr/local/bin/python3.7 automated_report_tool.py config/sample.ini >> /tmp/1.log
 
 
 This is utility tool which reads a config file and does the following for you:
