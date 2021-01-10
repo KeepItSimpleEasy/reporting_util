@@ -1,5 +1,9 @@
 from setuptools import setup, find_packages
 
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name='reporting',
     version='1.0',
@@ -10,5 +14,11 @@ setup(
     author='nikhleshagrawal',
     author_email='nikhlesh.agrawal@gmail.com',
     zip_safe=True,
-    description='This is utility tool which reads a config file and does the following for you - Runs a query in oracle database, Create an excel file, Zip the excel file, Send an email with the attachment to configured recipients, archive the xlsx and zip file'
+    classifiers=[
+        "Programming Language :: Python :: 3.7",
+        "Operating System :: OS Independent"
+    ],
+    description='Reporting utility tool',
+    long_description=long_description,
+    long_description_content_type="text/markdown"
 )
